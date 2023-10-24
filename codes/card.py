@@ -100,7 +100,6 @@ class Card:
             return False
         else:
             return True
-        pass
 
     pass
 
