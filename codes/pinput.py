@@ -32,12 +32,12 @@ def read_input(file, fc):
 if __name__ == "__main__":
     zz = FutureCards()
     print(repr(zz))
-    print(read_input("test.txt", zz))
+    print(read_input("../poker_test.txt", zz))
     # print(hand_from_string("Js   2c   Qc Ah 2d 7s 3c 5s",zz))
     # print(hand_from_string("Ac ?1 ?12 8h",zz))
     print(repr(zz))
 
-    with open("test.txt") as bb:
+    with open("../poker_test.txt") as bb:
         for cc in bb:
             print(cc.split())
             pass
